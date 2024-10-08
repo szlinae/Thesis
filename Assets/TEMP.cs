@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TEMP : MonoBehaviour
 {
@@ -24,9 +25,20 @@ public class TEMP : MonoBehaviour
         StartCoroutine(ShowText());
     }
 
+    public void OnClick2()
+    {
+        SceneManager.LoadScene("TalkingTEmp");
+    }
+
     IEnumerator ShowText()
     {
         yield return new WaitForSeconds(1.5f);
         textBox.SetActive(true);
+    }
+
+    public void OnClick3()
+    {
+        canvas.SetActive(false);
+        textBox.SetActive(false);
     }
 }
