@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FungusTesting.unity
     guid: aef90fd325105314cac0cdf3740bd552
+  - enabled: 1
+    path: Assets/Scenes/ARRIVAL.unity
+    guid: dbd0b4ed86b169a4f8165ce0e796f9ee
   m_configObjects: {}
