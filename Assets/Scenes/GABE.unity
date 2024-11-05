@@ -1126,7 +1126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &395519322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1187,12 +1187,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395519321}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.18, y: 0.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3899994, y: 0.96, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 957065034}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &414826331
 GameObject:
@@ -1410,15 +1410,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.88235295}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e8ab00ef0d9684dcb9deb52811d91218, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 10cfaa2227946244f9ee806b0d549672, type: 3}
+  m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
@@ -1454,7 +1454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -1041.2, y: 0}
+  m_AnchoredPosition: {x: -1041.2, y: 25}
   m_SizeDelta: {x: 2082.4563, y: 485.6203}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &461675495
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Sam
-  nameColor: {r: 0.31942463, g: 0.4245283, b: 0.18623175, a: 1}
+  nameColor: {r: 0.8773585, g: 0.43371305, b: 0.4871074, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b69b51ba573569f478590f9192a5d63d, type: 3}
@@ -1896,7 +1896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &753879041
 Transform:
   m_ObjectHideFlags: 0
@@ -3017,6 +3017,7 @@ Transform:
   m_Children:
   - {fileID: 1670774549}
   - {fileID: 50376341}
+  - {fileID: 395519323}
   - {fileID: 753879041}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5641,7 +5642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Gabe
-  nameColor: {r: 0.1699448, g: 0.37141332, b: 0.6320754, a: 1}
+  nameColor: {r: 0.57766813, g: 0.8679245, b: 0.45361334, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 99bb29ab8a2c78d4cade33ae6df66615, type: 3}
@@ -5691,7 +5692,7 @@ RectTransform:
   m_GameObject: {fileID: 1489264297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.96464, y: 0.96464, z: 0.96464}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1856976497}
@@ -5699,7 +5700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 3, y: 14.130005}
+  m_AnchoredPosition: {x: 3, y: 20}
   m_SizeDelta: {x: -61, y: -63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489264299
@@ -6958,7 +6959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -74.00006, y: 31.99998}
+  m_AnchoredPosition: {x: -31, y: -1}
   m_SizeDelta: {x: 80.453, y: 28.421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856976498
@@ -8745,4 +8746,3 @@ SceneRoots:
   - {fileID: 1274494756}
   - {fileID: 270610942}
   - {fileID: 1920548484}
-  - {fileID: 395519323}
