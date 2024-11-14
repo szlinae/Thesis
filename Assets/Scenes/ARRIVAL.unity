@@ -4221,6 +4221,8 @@ GameObject:
   - component: {fileID: 1237567881}
   - component: {fileID: 1237567883}
   - component: {fileID: 1237567882}
+  - component: {fileID: 1237567885}
+  - component: {fileID: 1237567884}
   m_Layer: 0
   m_Name: A_Day1_1
   m_TagString: Untagged
@@ -4429,6 +4431,8 @@ MonoBehaviour:
   - {fileID: 1237567881}
   - {fileID: 1237567875}
   - {fileID: 1237567873}
+  - {fileID: 1237567885}
+  - {fileID: 1237567884}
   - {fileID: 1237567872}
   - {fileID: 1237567882}
   - {fileID: 1237567883}
@@ -4461,7 +4465,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1237567878}
   selectedCommands:
-  - {fileID: 1237567883}
+  - {fileID: 1237567884}
   variables: []
   description: 
   stepPause: 0
@@ -4514,7 +4518,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1237567882
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4541,7 +4545,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1237567883
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4554,6 +4558,61 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   storyText: Transition test to new flow.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1237567884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  storyText: "\rHowever, everything is completely foreign to you. The only thing
+    you can grasp is that you are in a very, very large house."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1237567885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: Looking around to try and ascertain your location.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7223,7 +7282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 783085037}
+  selectedFlowchart: {fileID: 1237567879}
 --- !u!4 &1774105620
 Transform:
   m_ObjectHideFlags: 1
