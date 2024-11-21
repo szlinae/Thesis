@@ -3538,7 +3538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1043.2958
     y: 136.80661
-    width: 118.8
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3998,7 +3998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 617.90717
     y: 98.96907
-    width: 112.4
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4046,7 +4046,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 999632434}
   selectedCommands:
-  - {fileID: 999632440}
+  - {fileID: 999632426}
   variables:
   - {fileID: 999632438}
   description: 
@@ -4121,7 +4121,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &999632440
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4145,7 +4145,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &999632441
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7874,7 +7874,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1203898886}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5743756
+  m_Size: 0.58838785
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
