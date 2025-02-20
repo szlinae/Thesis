@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARRIVAL.unity
     guid: dbd0b4ed86b169a4f8165ce0e796f9ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GABE.unity
     guid: 18b3c08bc62619044b6feac815438c5d
   m_configObjects: {}
