@@ -9390,6 +9390,12 @@ GameObject:
   - component: {fileID: 1237568232}
   - component: {fileID: 1237568231}
   - component: {fileID: 1237568233}
+  - component: {fileID: 1237568239}
+  - component: {fileID: 1237568238}
+  - component: {fileID: 1237568237}
+  - component: {fileID: 1237568236}
+  - component: {fileID: 1237568235}
+  - component: {fileID: 1237568234}
   m_Layer: 0
   m_Name: A_Day1_1
   m_TagString: Untagged
@@ -9596,9 +9602,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1237567878}
+  - {fileID: 1237568081}
   selectedCommands:
-  - {fileID: 1237568233}
+  - {fileID: 1237568239}
   variables:
   - {fileID: 1237568127}
   description: 
@@ -12892,10 +12898,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: 'Slowly, you take a step towards the inside of the mansion. '
+  storyText: (God, this place is eerie.)
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 370624825}
+  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12904,7 +12910,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 355365059}
+  setSayDialog: {fileID: 602562737}
 --- !u!114 &1237568058
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13529,7 +13535,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1237568238}
   - {fileID: 1237568057}
+  - {fileID: 1237568237}
+  - {fileID: 1237568236}
+  - {fileID: 1237568235}
+  - {fileID: 1237568234}
+  - {fileID: 1237568239}
   - {fileID: 1237568056}
   - {fileID: 1237568055}
   - {fileID: 1237568054}
@@ -17839,6 +17851,170 @@ MonoBehaviour:
   itemId: 371
   indentLevel: 0
   storyText: frtomt dooor
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 355365059}
+--- !u!114 &1237568234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 377
+  indentLevel: 0
+  storyText: '(Why did I... expect that?) '
+  description: 
+  character: {fileID: 370624825}
+  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 602562737}
+--- !u!114 &1237568235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 376
+  indentLevel: 0
+  storyText: "\u2026"
+  description: 
+  character: {fileID: 370624825}
+  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 602562737}
+--- !u!114 &1237568236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 375
+  indentLevel: 0
+  storyText: "Putting your hand on the knob, you try and open the front door. It
+    doesn\u2019t budge."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 355365059}
+--- !u!114 &1237568237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 374
+  indentLevel: 0
+  storyText: You turn around to face the front door. As with the rest of the house,
+    it is massive.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 355365059}
+--- !u!114 &1237568238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 373
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 370624825}
+  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 602562737}
+--- !u!114 &1237568239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237567869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 372
+  indentLevel: 0
+  storyText: 'Turning around, you slowly take a step towards the inside of the mansion. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
