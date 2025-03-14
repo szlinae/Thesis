@@ -19,7 +19,7 @@ public class TEMP2 : MonoBehaviour
 
     public void OnClick()
     {
-        SceneManager.LoadScene("home");
+        SceneManager.LoadScene("ARRIVAL");
     }
 
 }
