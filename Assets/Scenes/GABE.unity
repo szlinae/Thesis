@@ -4786,7 +4786,7 @@ MonoBehaviour:
   storyText: Did you try and clone our never-ending food supply?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: b44ca9ad7a21c9346aa3a6842a776ab0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4813,7 +4813,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4921,7 +4921,7 @@ MonoBehaviour:
   storyText: "Why\u2019s it unopened?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4948,7 +4948,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5030,7 +5030,7 @@ MonoBehaviour:
   storyText: Hey, morning.
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 67cfb27ff65d3d94ebc34aa886ec880c, type: 3}
+  portrait: {fileID: 21300000, guid: b44ca9ad7a21c9346aa3a6842a776ab0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5203,9 +5203,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 232754995}
-  selectedCommands:
-  - {fileID: 232755071}
+  - {fileID: 232755049}
+  selectedCommands: []
   variables:
   - {fileID: 232754946}
   description: 
@@ -5644,7 +5643,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &232755070
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5664,7 +5663,7 @@ MonoBehaviour:
   inOutVar: {fileID: 232754946}
 --- !u!114 &232755071
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5684,7 +5683,7 @@ MonoBehaviour:
   inOutVar: {fileID: 232754946}
 --- !u!114 &232755072
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5704,7 +5703,7 @@ MonoBehaviour:
   inOutVar: {fileID: 232754946}
 --- !u!114 &232755073
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6378,8 +6377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1864, y: 295}
-  m_SizeDelta: {x: 667.7875, y: 765.4979}
+  m_AnchoredPosition: {x: -1819.0304, y: 254}
+  m_SizeDelta: {x: 569.9436, y: 653.3403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324865535
 MonoBehaviour:
@@ -13001,7 +13000,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1143278082
@@ -14248,9 +14247,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 458
-    y: 305
-    width: 95.360825
+    x: 455.8022
+    y: 313.79126
+    width: 93.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14284,7 +14283,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 328
     y: 307
-    width: 78.86598
+    width: 78.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14321,7 +14320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192
     y: 303
-    width: 112.8866
+    width: 111.17646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14481,7 +14480,7 @@ MonoBehaviour:
   storyText: "I\u2026 I\u2019m gonna go talk to him then."
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14535,7 +14534,7 @@ MonoBehaviour:
   storyText: "\u2026Oh."
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14590,7 +14589,7 @@ MonoBehaviour:
   storyText: Uh, yeah. He came up to my room this morning. Why?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14698,7 +14697,7 @@ MonoBehaviour:
   storyText: "Good\u2026 morning?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14753,7 +14752,7 @@ MonoBehaviour:
   storyText: "(Uh\u2026 he\u2019ll be okay, right?)"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14779,7 +14778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326
     y: 152
-    width: 85.051544
+    width: 85.29411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14810,7 +14809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317
     y: 243
-    width: 99.484535
+    width: 99.41176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14987,7 +14986,7 @@ MonoBehaviour:
   storyText: Can I just go eat?!
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 487d5db802cf7bf45abe1910825245c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15042,7 +15041,7 @@ MonoBehaviour:
   storyText: "What? No, I\u2014"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15124,7 +15123,7 @@ MonoBehaviour:
   storyText: "I haven\u2019t been avoiding you. Gabe\u2014"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15151,7 +15150,7 @@ MonoBehaviour:
   storyText: What? What are you talking about?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15286,7 +15285,7 @@ MonoBehaviour:
   storyText: (It's too early for this.)
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15313,7 +15312,7 @@ MonoBehaviour:
   storyText: Dude, what could I be hiding?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15367,7 +15366,7 @@ MonoBehaviour:
   storyText: "\u2026I\u2019m not."
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15475,7 +15474,7 @@ MonoBehaviour:
   storyText: "Yeah? Why wouldn\u2019t I be?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15556,7 +15555,7 @@ MonoBehaviour:
   storyText: Is something wrong?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15610,7 +15609,7 @@ MonoBehaviour:
   storyText: "Oh\u2026 hi?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15692,7 +15691,7 @@ MonoBehaviour:
   storyText: "(\u2026)"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15760,7 +15759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 162
     y: 150
-    width: 100.51546
+    width: 98.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15818,11 +15817,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 61.128796, y: -50.530933}
+  scrollPos: {x: 331.72525, y: -39.526436}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.97
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -15830,8 +15829,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1492156295}
-  selectedCommands: []
+  - {fileID: 1492156369}
+  selectedCommands:
+  - {fileID: 1492156341}
   variables:
   - {fileID: 1492156294}
   description: 
@@ -15915,7 +15915,7 @@ MonoBehaviour:
   storyText: "\u2026Gabe?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15941,7 +15941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 448
     y: 152
-    width: 113.91753
+    width: 113.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16006,7 +16006,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16169,7 +16169,7 @@ MonoBehaviour:
   storyText: "\u2026Gabe?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16355,7 +16355,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16518,7 +16518,7 @@ MonoBehaviour:
   storyText: (?!)
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16628,7 +16628,7 @@ MonoBehaviour:
   storyText: "I-I\u2019m here!"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16682,7 +16682,7 @@ MonoBehaviour:
   storyText: "(Ouch\u2026 what the fuck?!)"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16709,7 +16709,7 @@ MonoBehaviour:
   storyText: (?!)
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16873,7 +16873,7 @@ MonoBehaviour:
   storyText: "D-dude, I\u2019m trying!"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 487d5db802cf7bf45abe1910825245c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16900,7 +16900,7 @@ MonoBehaviour:
   storyText: (What?!)
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16927,7 +16927,7 @@ MonoBehaviour:
   storyText: (What is happening right now?!)
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17008,7 +17008,7 @@ MonoBehaviour:
   storyText: Unlock the door!
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17062,7 +17062,7 @@ MonoBehaviour:
   storyText: "No, it\u2019s not! Unlock it, dude!"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 487d5db802cf7bf45abe1910825245c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17116,7 +17116,7 @@ MonoBehaviour:
   storyText: What?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17251,7 +17251,7 @@ MonoBehaviour:
   storyText: " \u2026Gabe?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17333,7 +17333,7 @@ MonoBehaviour:
   storyText: C-can you open the door?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17360,7 +17360,7 @@ MonoBehaviour:
   storyText: "W-what?! I don\u2019t know!"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17414,7 +17414,7 @@ MonoBehaviour:
   storyText: What?!
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17468,7 +17468,7 @@ MonoBehaviour:
   storyText: What?
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17549,7 +17549,7 @@ MonoBehaviour:
   storyText: "Yeah? I\u2019m here."
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17657,7 +17657,7 @@ MonoBehaviour:
   storyText: "(\u2026What\u2019s that noise?)"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17787,7 +17787,7 @@ MonoBehaviour:
   storyText: "I\u2019m really sorry, Gabe."
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17813,7 +17813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 729.5
     y: 152.5
-    width: 124.2268
+    width: 124.11764
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17969,7 +17969,7 @@ MonoBehaviour:
   storyText: "Can\u2026 can you tell me what makes you say that?"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17995,7 +17995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 603.5
     y: 204.5
-    width: 78.86598
+    width: 77.05882
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18024,7 +18024,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 607.5
     y: 96.5
-    width: 71.64948
+    width: 71.17647
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18105,7 +18105,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18234,7 +18234,7 @@ MonoBehaviour:
   storyText: "Wait, Gabe, I\u2014"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18289,7 +18289,7 @@ MonoBehaviour:
   storyText: "(Uh\u2026 am I invading his privacy?)"
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: c92ecfa502e104d489a3b9da9e305de1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18344,7 +18344,7 @@ MonoBehaviour:
   storyText: Wait, Gabe!
   description: 
   character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
+  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20710,8 +20710,10 @@ MonoBehaviour:
   nameColor: {r: 0.4528302, g: 0.1930908, b: 0.1516554, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 1b19a87de737c744db43fb2163480465, type: 3}
-  - {fileID: 21300000, guid: 67cfb27ff65d3d94ebc34aa886ec880c, type: 3}
+  - {fileID: 21300000, guid: 487d5db802cf7bf45abe1910825245c8, type: 3}
+  - {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
+  - {fileID: 21300000, guid: 13541fa46104eb34ab1e4bcea842a123, type: 3}
+  - {fileID: 21300000, guid: c92ecfa502e104d489a3b9da9e305de1, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
