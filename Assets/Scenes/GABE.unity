@@ -3496,7 +3496,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 473.94736
-    y: 10.436622
+    y: 9.260151
     width: 64.117645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4840,9 +4840,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 232754940}
+  - {fileID: 232754939}
   selectedCommands:
-  - {fileID: 232754899}
+  - {fileID: 232755052}
   variables:
   - {fileID: 232754946}
   description: 
@@ -4973,7 +4973,7 @@ MonoBehaviour:
   property: 11
   transformData:
     transformRef: {fileID: 0}
-    transformVal: {fileID: 264926846}
+    transformVal: {fileID: 1717121405}
   inOutVar: {fileID: 232754946}
 --- !u!114 &232755057
 MonoBehaviour:
@@ -5244,7 +5244,7 @@ MonoBehaviour:
   property: 11
   transformData:
     transformRef: {fileID: 0}
-    transformVal: {fileID: 264926846}
+    transformVal: {fileID: 1717121405}
   inOutVar: {fileID: 232754946}
 --- !u!114 &232755069
 MonoBehaviour:
@@ -5417,8 +5417,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 553d6fc9656333549a1aa07b7f91550c, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: cfd045fcd8d8be342b349ffc2f978570, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9692,9 +9692,10 @@ GameObject:
   - component: {fileID: 999632509}
   - component: {fileID: 999632508}
   - component: {fileID: 999632507}
-  - component: {fileID: 999632506}
   - component: {fileID: 999632579}
   - component: {fileID: 999632578}
+  - component: {fileID: 999632580}
+  - component: {fileID: 999632581}
   m_Layer: 0
   m_Name: DAY 4
   m_TagString: Untagged
@@ -9762,6 +9763,7 @@ MonoBehaviour:
   - {fileID: 999632470}
   - {fileID: 999632469}
   - {fileID: 999632468}
+  - {fileID: 999632580}
   - {fileID: 999632467}
   - {fileID: 999632466}
   - {fileID: 999632465}
@@ -9803,10 +9805,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 999632559}
-  selectedCommands:
-  - {fileID: 999632578}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 999632505}
   description: 
@@ -10078,8 +10078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "You realize, a bit belatedly, that you have somehow possessed the body
-    of Gabe, and it seems she is\u2026 not happy with him. "
+  storyText: You realize, a bit belatedly, that you have somehow possessed the body
+    of Gabe, and before you stands his mother, arms raising as she spits out words
+    rather than speaking them.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10242,7 +10243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "The voice is clear now, and they are in fact talking in Chinese, but\u2026"
+  storyText: "The voice is clear now, and it is in fact talking in Chinese, but\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10296,7 +10297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "(Ugh. Whatever. I\u2019m not awake enough for this.)"
+  storyText: "(Ugh. I\u2019m not awake enough for this.)"
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
@@ -10377,8 +10378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: You wake up from the dream, head spinning a little from how vivid the
-    voices were.
+  storyText: You wake up from the dream, head still spinning.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10432,8 +10432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "There\u2019s a sound of papers hitting a wall, and then floating to
-    the ground. "
+  storyText: "There\u2019s a sound of papers hitting a wall, and then fluttering 
+    to the ground. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10514,7 +10514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "(Too bad I can\u2019t see anything.)"
+  storyText: (If only I could see what was happening.)
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 0}
@@ -10622,7 +10622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "(\u2026 Holy shit, is he crying? Am I crying?)"
+  storyText: (...)
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 0}
@@ -10703,7 +10703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "His mom says something, and then there\u2019s the sound of a door shutting."
+  storyText: "His mom's says something short, but calmer, and then there\u2019s the
+    sound of a door shutting."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11604,33 +11605,6 @@ MonoBehaviour:
   scope: 0
   key: goTo
   value: {x: 0, y: 0, z: 0}
---- !u!114 &999632506
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999632404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 138
-  indentLevel: 0
-  storyText: "But you find that you don\u2019t seem to mind it that much."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 298070910}
 --- !u!114 &999632507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11645,7 +11619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 137
   indentLevel: 0
-  storyText: Between you, your respective breakfasts have gone stale and soggy.
+  storyText: 'Your breakfasts, abandoned at the table, have gone cold and soggy. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11672,7 +11646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 136
   indentLevel: 0
-  storyText: The two of you start laughing again.
+  storyText: Laughter takes you both again.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11969,7 +11943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: You laugh.
+  storyText: You chuckle.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12216,8 +12190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: "He keeps giggling. It puts a smile on your face \u2014 it\u2019s been
-    a while since you\u2019ve seen him smile this wide, after all."
+  storyText: "It puts a smile on your face \u2014 it\u2019s been a while since you\u2019ve
+    seen him laugh."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12352,7 +12326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: Gabe looks at you incredulously, then bursts out laughing.
+  storyText: Gabe's eyes widen and he bursts out laughing.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12623,7 +12597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: He stares down into his oats uncomfortably.
+  storyText: He stares down into his oats.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12772,7 +12746,7 @@ MonoBehaviour:
   - {fileID: 999632509}
   - {fileID: 999632508}
   - {fileID: 999632507}
-  - {fileID: 999632506}
+  - {fileID: 999632581}
   suppressAllAutoSelections: 0
 --- !u!114 &999632548
 MonoBehaviour:
@@ -13194,7 +13168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: Gabe laughs, but it feels forced.
+  storyText: Gabe laughs, but it's stiff.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13470,7 +13444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: "Is\u2026 there something you want to say?"
+  storyText: What is it?
   description: 
   character: {fileID: 475193665}
   portrait: {fileID: 21300000, guid: 47d02e1157d27f24e980fc7ac4798944, type: 3}
@@ -13524,7 +13498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: As you make your cereal, you think back to the dream you had that morning.
+  storyText: As you make your cereal, you think back to your dream.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13551,7 +13525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: Hey.
+  storyText: Good morning.
   description: 
   character: {fileID: 475193665}
   portrait: {fileID: 21300000, guid: 2185161dc0c0869428ef71ae7990e1a7, type: 3}
@@ -13593,7 +13567,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1904067297}
 --- !u!114 &999632578
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13620,7 +13594,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1904067297}
 --- !u!114 &999632579
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13645,7 +13619,65 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1904067297}
+<<<<<<< Updated upstream
 --- !u!1 &1127073132
+=======
+--- !u!114 &999632580
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999632404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  storyText: (He's crying...)
+  description: 
+  character: {fileID: 1802069371}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 298070910}
+--- !u!114 &999632581
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999632404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  storyText: But you dont mind.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 298070910}
+--- !u!1 &1026751049
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15235,14 +15267,14 @@ GameObject:
   - component: {fileID: 1492156400}
   - component: {fileID: 1492156399}
   - component: {fileID: 1492156398}
-  - component: {fileID: 1492156397}
-  - component: {fileID: 1492156396}
   - component: {fileID: 1492156395}
   - component: {fileID: 1492156394}
   - component: {fileID: 1492156393}
   - component: {fileID: 1492156392}
   - component: {fileID: 1492156391}
   - component: {fileID: 1492156390}
+  - component: {fileID: 1492156413}
+  - component: {fileID: 1492156412}
   m_Layer: 0
   m_Name: BAD END
   m_TagString: Untagged
@@ -15300,7 +15332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: "You scale the downstairs hallway, occassionally calling out his name.
+  storyText: "You scale the downstairs hallways, occassionally calling out his name.
     There\u2019s no call back, and all the rooms seem unoccupied."
   description: 
   character: {fileID: 0}
@@ -15330,7 +15362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.8022
     y: 313.79126
-    width: 93.5294
+    width: 96.8085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15363,8 +15395,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 328
-    y: 307
-    width: 78.23529
+    y: 312.88242
+    width: 78.723404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15399,9 +15431,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 192
-    y: 303
-    width: 111.17646
+    x: 189.64706
+    y: 313.58835
+    width: 113.82979
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15410,8 +15442,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1492156397}
-  - {fileID: 1492156396}
+  - {fileID: 1492156413}
+  - {fileID: 1492156412}
   - {fileID: 1492156239}
   - {fileID: 1492156238}
   suppressAllAutoSelections: 0
@@ -15859,7 +15891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326
     y: 152
-    width: 85.29411
+    width: 85.106384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15890,7 +15922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317
     y: 243
-    width: 99.41176
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16838,9 +16870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 162
+    x: 160.93617
     y: 150
-    width: 98.23529
+    width: 102.127655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16898,11 +16930,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 331.72525, y: -39.526436}
+  scrollPos: {x: 470.88403, y: -76.86935}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 539
-  zoom: 0.85000014
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -16910,9 +16942,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1492156369}
+  - {fileID: 1492156242}
   selectedCommands:
-  - {fileID: 1492156332}
+  - {fileID: 1492156239}
   variables:
   - {fileID: 1492156294}
   description: 
@@ -17022,7 +17054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 448
     y: 152
-    width: 113.5294
+    width: 114.893616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18894,7 +18926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 729.5
     y: 152.5
-    width: 124.11764
+    width: 125.53191
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19076,7 +19108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 603.5
     y: 204.5
-    width: 77.05882
+    width: 79.78723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19105,7 +19137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 607.5
     y: 96.5
-    width: 71.17647
+    width: 72.34042
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19576,46 +19608,6 @@ MonoBehaviour:
     transformRef: {fileID: 0}
     transformVal: {fileID: 1326088160}
   inOutVar: {fileID: 1492156294}
---- !u!114 &1492156396
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492156236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fb064de1b711a449845627f19b7f7b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 161
-  indentLevel: 0
-  getOrSet: 1
-  property: 11
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 1765856800}
-  inOutVar: {fileID: 1492156294}
---- !u!114 &1492156397
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492156236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fb064de1b711a449845627f19b7f7b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 160
-  indentLevel: 0
-  getOrSet: 0
-  property: 11
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 264926846}
-  inOutVar: {fileID: 1492156294}
 --- !u!114 &1492156398
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19735,6 +19727,46 @@ MonoBehaviour:
   transformData:
     transformRef: {fileID: 0}
     transformVal: {fileID: 255320363}
+  inOutVar: {fileID: 1492156294}
+--- !u!114 &1492156412
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492156236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb064de1b711a449845627f19b7f7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 0
+  getOrSet: 1
+  property: 11
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 1765856800}
+  inOutVar: {fileID: 1492156294}
+--- !u!114 &1492156413
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492156236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb064de1b711a449845627f19b7f7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 0
+  getOrSet: 0
+  property: 11
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 1717121405}
   inOutVar: {fileID: 1492156294}
 --- !u!1 &1495899287
 GameObject:
@@ -20646,7 +20678,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716785771}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1718934754
+=======
+--- !u!1 &1717121404
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20654,23 +20690,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1718934755}
   - component: {fileID: 1718934758}
   - component: {fileID: 1718934757}
   - component: {fileID: 1718934756}
   m_Layer: 5
   m_Name: Viewport
+=======
+  - component: {fileID: 1717121405}
+  - component: {fileID: 1717121406}
+  m_Layer: 0
+  m_Name: Hall3
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!224 &1718934755
 RectTransform:
+=======
+--- !u!4 &1717121405
+Transform:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1718934754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -20687,10 +20736,24 @@ RectTransform:
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1718934756
 MonoBehaviour:
+=======
+  m_GameObject: {fileID: 1717121404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.782166, y: 20.004938, z: 0}
+  m_LocalScale: {x: 0.46307725, y: 0.46307725, z: 0.46307725}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1717121406
+SpriteRenderer:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1718934754}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -20727,6 +20790,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718934754}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1717121404}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 75cdd4262b1d61743933f25c962f1a3d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 38.4, y: 21.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+>>>>>>> Stashed changes
 --- !u!1 &1735167208
 GameObject:
   m_ObjectHideFlags: 0
@@ -21245,7 +21356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 999632435}
+  selectedFlowchart: {fileID: 1492156296}
 --- !u!4 &1801833149
 Transform:
   m_ObjectHideFlags: 1
@@ -21923,7 +22034,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4f488bf6be53a134d92a1771975a2d95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e48d52cd9f6e6594b8b58ab9a01e8400, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22381,8 +22492,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1966642186}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1966642191}
@@ -23978,12 +24088,13 @@ SceneRoots:
   - {fileID: 94893039}
   - {fileID: 411857317}
   - {fileID: 264926846}
+  - {fileID: 1717121405}
   - {fileID: 1521096750}
   - {fileID: 774379205}
-  - {fileID: 1921902458}
   - {fileID: 1909876318}
   - {fileID: 1748483966}
   - {fileID: 920143321}
+  - {fileID: 1921902458}
   - {fileID: 321003339}
   - {fileID: 590126254}
   - {fileID: 933351773}
