@@ -9587,7 +9587,6 @@ GameObject:
   - component: {fileID: 999632458}
   - component: {fileID: 999632457}
   - component: {fileID: 999632456}
-  - component: {fileID: 999632455}
   - component: {fileID: 999632476}
   - component: {fileID: 999632475}
   - component: {fileID: 999632474}
@@ -9691,10 +9690,10 @@ GameObject:
   - component: {fileID: 999632510}
   - component: {fileID: 999632509}
   - component: {fileID: 999632508}
-  - component: {fileID: 999632507}
   - component: {fileID: 999632506}
   - component: {fileID: 999632579}
   - component: {fileID: 999632578}
+  - component: {fileID: 999632580}
   m_Layer: 0
   m_Name: DAY 4
   m_TagString: Untagged
@@ -9761,6 +9760,7 @@ MonoBehaviour:
   - {fileID: 999632471}
   - {fileID: 999632470}
   - {fileID: 999632469}
+  - {fileID: 999632580}
   - {fileID: 999632468}
   - {fileID: 999632467}
   - {fileID: 999632466}
@@ -9773,7 +9773,6 @@ MonoBehaviour:
   - {fileID: 999632459}
   - {fileID: 999632458}
   - {fileID: 999632457}
-  - {fileID: 999632455}
   - {fileID: 999632476}
   - {fileID: 999632456}
   - {fileID: 999632475}
@@ -9804,9 +9803,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 999632548}
+  - {fileID: 999632547}
   selectedCommands:
-  - {fileID: 999632543}
+  - {fileID: 999632506}
   variables:
   - {fileID: 999632505}
   description: 
@@ -10078,8 +10077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "You realize, a bit belatedly, that you have somehow possessed the body
-    of Gabe, and it seems she is\u2026 not happy with him. "
+  storyText: You realize, a bit belatedly, that you have somehow possessed the body
+    of Gabe, standing in front of his mom, who is speaking exasperatedly to him.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10106,7 +10105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: (Auntie Xu...
+  storyText: (Auntie Xu...)
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 0}
@@ -10242,7 +10241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "The voice is clear now, and they are in fact talking in Chinese, but\u2026"
+  storyText: "The voice is clear now, and it is in fact talking in Chinese, but\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10255,33 +10254,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 298070910}
---- !u!114 &999632455
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999632404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 33
-  indentLevel: 0
-  storyText: (And that ending... I've never heard Gabe cuss like that before.)
-  description: 
-  character: {fileID: 1802069371}
-  portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 1904067297}
 --- !u!114 &999632456
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10296,7 +10268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "(Ugh. Whatever. I\u2019m not awake enough for this.)"
+  storyText: "(Ugh. I\u2019m not awake enough for this.)"
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
@@ -10377,8 +10349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: You wake up from the dream, head spinning a little from how vivid the
-    voices were.
+  storyText: You wake up from the dream, head still spinning.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10432,8 +10403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "There\u2019s a sound of papers hitting a wall, and then floating to
-    the ground. "
+  storyText: "There\u2019s a sound of papers hitting a wall, and then fluttering
+    to the ground. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10514,7 +10485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "(Too bad I can\u2019t see anything.)"
+  storyText: (If only I could see what was happening.)
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 0}
@@ -10622,7 +10593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "(\u2026 Holy shit, is he crying? Am I crying?)"
+  storyText: (He's crying...)
   description: 
   character: {fileID: 1802069371}
   portrait: {fileID: 0}
@@ -11618,34 +11589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: "But you find that you don\u2019t seem to mind it that much."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 298070910}
---- !u!114 &999632507
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999632404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  storyText: Between you, your respective breakfasts have gone stale and soggy.
+  storyText: 'Your breakfasts have gone stale and soggy. But you don''t mind. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11969,7 +11913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: You laugh.
+  storyText: You chuckle.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12216,8 +12160,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: "He keeps giggling. It puts a smile on your face \u2014 it\u2019s been
-    a while since you\u2019ve seen him smile this wide, after all."
+  storyText: "It puts a smile on your face \u2014 it\u2019s been a while since you\u2019ve
+    seen him laugh."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12352,7 +12296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: Gabe looks at you incredulously, then bursts out laughing.
+  storyText: Gabe's eyes widen and he bursts out laughing.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12771,7 +12715,6 @@ MonoBehaviour:
   - {fileID: 999632510}
   - {fileID: 999632509}
   - {fileID: 999632508}
-  - {fileID: 999632507}
   - {fileID: 999632506}
   suppressAllAutoSelections: 0
 --- !u!114 &999632548
@@ -13194,7 +13137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: Gabe laughs, but it feels forced.
+  storyText: Gabe laughs, but its stiff.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13645,6 +13588,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1904067297}
+--- !u!114 &999632580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999632404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  storyText: (...)
+  description: 
+  character: {fileID: 1802069371}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 298070910}
 --- !u!1 &1127073132
 GameObject:
   m_ObjectHideFlags: 0
