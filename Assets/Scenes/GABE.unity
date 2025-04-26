@@ -4840,7 +4840,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 232754940}
+  - {fileID: 232755049}
   selectedCommands:
   - {fileID: 232754901}
   variables:
@@ -5783,9 +5783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 1
+  volume: 0.04
   loop: 1
-  targetAudioSource: {fileID: 0}
+  targetAudioSource: {fileID: 298070906}
   audioMode: 0
   beepSounds:
   - {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
@@ -6713,7 +6713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Gabe
   nameColor: {r: 0.19037023, g: 0.29922262, b: 0.4339623, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 7ed025095164bec47921593b5717dbdc, type: 3}
   portraits:
   - {fileID: 21300000, guid: e0b4ed85c76c099478209747f342411f, type: 3}
   - {fileID: 21300000, guid: 816f9a5b987a48841bb5d05c19c10021, type: 3}
@@ -7369,7 +7369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Tarani
   nameColor: {r: 0.86419857, g: 0.7092827, b: 0.9339623, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 7ed025095164bec47921593b5717dbdc, type: 3}
   portraits:
   - {fileID: 21300000, guid: 910adf09d9621a8448d2c33bd2b56fbf, type: 3}
   portraitsFace: 0
@@ -20740,7 +20740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Carsen
   nameColor: {r: 0.7202897, g: 0.8490566, b: 0.65281236, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 7a3b1c5b629662744a47340be4871382, type: 3}
   portraits:
   - {fileID: 21300000, guid: 6e20244cf23736c46a0aff74a409167b, type: 3}
   portraitsFace: 0
@@ -21465,7 +21465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Sam
   nameColor: {r: 0.4528302, g: 0.1930908, b: 0.1516554, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: f8316ec8d47a7f349afbc8f589a145d1, type: 3}
   portraits:
   - {fileID: 21300000, guid: 487d5db802cf7bf45abe1910825245c8, type: 3}
   - {fileID: 21300000, guid: 8e96375d9e3067a4babeab7b07ff1a09, type: 3}
@@ -21823,9 +21823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 1
+  volume: 0.04
   loop: 1
-  targetAudioSource: {fileID: 0}
+  targetAudioSource: {fileID: 1904067293}
   audioMode: 0
   beepSounds:
   - {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
